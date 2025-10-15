@@ -45,8 +45,9 @@
                                          (inc aprovados-count)
                                          aprovados-count)]
 
-              (println nome "-" "Conceito:" conc)
+              (println nome "- conceito:" conc)
 
               (recur (inc alunoAtual)
                      (+ soma-notas nota)
+
                      novo-aprovados-count))))))))
